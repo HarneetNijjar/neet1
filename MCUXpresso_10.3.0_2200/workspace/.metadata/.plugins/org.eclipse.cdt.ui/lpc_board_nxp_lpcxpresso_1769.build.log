@@ -1,0 +1,22 @@
+13:07:37 **** Build of configuration Debug for project lpc_board_nxp_lpcxpresso_1769 ****
+make -r all 
+Building file: ../src/board.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"/home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/lpc_chip_175x_6x/inc" -I"/home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/lpc_board_nxp_lpcxpresso_1769/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/board.d" -MT"src/board.o" -MT"src/board.d" -o "src/board.o" "../src/board.c"
+../src/board.c:137:6: error: conflicting types for 'Board_LED_Set'
+ void Board_LED_Set(uint8_t LEDNumber, bool On)
+      ^~~~~~~~~~~~~
+In file included from /home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/lpc_board_nxp_lpcxpresso_1769/inc/board.h:239:0,
+                 from ../src/board.c:34:
+/home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/lpc_board_nxp_lpcxpresso_1769/inc/board_api.h:122:6: note: previous declaration of 'Board_LED_Set' was here
+ void Board_LED_Set(uint32_t LEDNumber, bool State);
+      ^~~~~~~~~~~~~
+../src/board.c: In function 'Board_I2C_Init':
+../src/board.c:274:2: warning: enumeration value 'I2C_NUM_INTERFACE' not handled in switch [-Wswitch]
+  switch (id) {
+  ^~~~~~
+src/subdir.mk:24: recipe for target 'src/board.o' failed
+make: *** [src/board.o] Error 1
+
+13:07:37 Build Finished (took 276ms)
+

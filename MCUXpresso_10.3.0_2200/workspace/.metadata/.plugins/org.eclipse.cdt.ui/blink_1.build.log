@@ -1,0 +1,12 @@
+22:19:30 **** Build of configuration Debug for project blink_1 ****
+make -r -j4 all 
+Building target: blink_1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/lpc_board_nxp_lpcxpresso_1769/Debug" -L"/home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/lpc_chip_175x_6x/Debug" -Xlinker -Map="blink_1.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "blink_1_Debug.ld" -o "blink_1.axf"  ./src/blink_1.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/sysinit.o   -llpc_board_nxp_lpcxpresso_1769 -llpc_chip_175x_6x
+/usr/local/mcuxpressoide-10.3.0_2200/ide/plugins/com.nxp.mcuxpresso.tools.linux_10.3.0.201811011841/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld: cannot find -llpc_board_nxp_lpcxpresso_1769
+makefile:30: recipe for target 'blink_1.axf' failed
+collect2: error: ld returned 1 exit status
+make: *** [blink_1.axf] Error 1
+
+22:19:30 Build Finished (took 277ms)
+

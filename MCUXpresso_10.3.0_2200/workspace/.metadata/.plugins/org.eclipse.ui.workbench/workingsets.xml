@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.cdt.ui.CElementWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1550114091963_5" label="NEW" name="NEW">
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/periph_blinky" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/periph_ritimer" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/project_hello" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/lpc_board_nxp_lpcxpresso_1769" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/lpc_chip_175x_6x" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/periph_can" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/periph_adc" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/periph_spi" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/periph_ssp" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/periph_pmu" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/usbd_lib_composite" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/usbd_lib_hid_keyboard" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/usbd_lib_cdc_uart" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/iperf_server" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/periph_watchdog" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/periph_rtc" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/lpcusblib_KeyboardHost" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/usbd_lib_hid_generic" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/periph_flashiap" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/lpcusblib_MassStorageHost" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/periph_dac" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/usbd_lib_cdc" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/periph_i2c" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/periph_systick" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/periph_clkout" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/periph_pinint" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/webserver" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/lwip_tcpecho_sa" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/lwip_tcpecho_freertos" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/periph_ethernet" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/periph_bod" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/usbd_lib_hid_mouse" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/ucos_iii_blinky" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/webserver_freertos" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/periph_uart_rb" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/periph_timer" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1549313417550_0" label="Window Working Set" name="Aggregate for window 1549313417549"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1549886864872_1" label="Window Working Set" name="Aggregate for window 1549886864872"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1549897755858_2" label="Window Working Set" name="Aggregate for window 1549897755858"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1549899148934_3" label="Window Working Set" name="Aggregate for window 1549899148934"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1550104626178_4" label="Window Working Set" name="Aggregate for window 1550104626178"/>
+<mruList name="NEW"/>
+</workingSetManager>
