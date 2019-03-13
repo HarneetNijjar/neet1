@@ -1,0 +1,1682 @@
+!SESSION 2019-02-04 14:43:40.201 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.nxp.mcuxpresso.core.common 1 0 2019-02-04 14:43:46.345
+!MESSAGE Link /usr/local/mcuxpressoide-10.3.0_2200/ide/binaries already exists. Deleting old... false
+
+!ENTRY com.nxp.mcuxpresso.core.common 4 0 2019-02-04 14:43:46.346
+!MESSAGE Unable to create symbolic links while installing feature.
+!STACK 0
+java.nio.file.FileAlreadyExistsException: /usr/local/mcuxpressoide-10.3.0_2200/ide/binaries
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:88)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.createSymbolicLink(UnixFileSystemProvider.java:457)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at com.nxp.mcuxpresso.core.common.CreateLinks.updateLinks(CreateLinks.java:59)
+	at com.nxp.mcuxpresso.core.common.CreateLinks.execute(CreateLinks.java:27)
+	at org.eclipse.equinox.internal.p2.engine.ParameterizedProvisioningAction.execute(ParameterizedProvisioningAction.java:39)
+	at org.eclipse.equinox.internal.p2.engine.Phase.mainPerform(Phase.java:184)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:96)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:77)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:45)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.ProfileSynchronizer.executePlan(ProfileSynchronizer.java:799)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.ProfileSynchronizer.performAddRemove(ProfileSynchronizer.java:202)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.ProfileSynchronizer.synchronize(ProfileSynchronizer.java:141)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.synchronize(Activator.java:469)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:177)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1614)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.nxp.mcuxpresso.core.common 1 0 2019-02-04 14:43:46.347
+!MESSAGE Link /usr/local/mcuxpressoide-10.3.0_2200/ide/binaries already exists. Deleting old... false
+
+!ENTRY com.nxp.mcuxpresso.core.common 4 0 2019-02-04 14:43:46.348
+!MESSAGE Unable to create symbolic links while installing feature.
+!STACK 0
+java.nio.file.FileAlreadyExistsException: /usr/local/mcuxpressoide-10.3.0_2200/ide/binaries
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:88)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.createSymbolicLink(UnixFileSystemProvider.java:457)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at com.nxp.mcuxpresso.core.common.CreateLinks.updateLinks(CreateLinks.java:59)
+	at com.nxp.mcuxpresso.core.common.CreateLinks.undo(CreateLinks.java:32)
+	at org.eclipse.equinox.internal.p2.engine.ParameterizedProvisioningAction.undo(ParameterizedProvisioningAction.java:45)
+	at org.eclipse.equinox.internal.p2.engine.Phase.undo(Phase.java:284)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollBackPhase(EngineSession.java:238)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollback(EngineSession.java:156)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:86)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:45)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.ProfileSynchronizer.executePlan(ProfileSynchronizer.java:799)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.ProfileSynchronizer.performAddRemove(ProfileSynchronizer.java:202)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.ProfileSynchronizer.synchronize(ProfileSynchronizer.java:141)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.synchronize(Activator.java:469)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:177)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1614)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jface 2 0 2019-02-04 14:44:00.429
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-04 14:44:00.429
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,Unlock All Settings,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@914ab92,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@79d3c655,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2019-02-04 14:44:01.677
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Required sub element 'icon' not defined
+
+!ENTRY org.eclipse.ui 4 4 2019-02-04 14:44:01.677
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Unknown extension tag found: decorator
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-04 14:44:04.064
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-04 14:44:04.787
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-04 14:44:04.788
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-04 14:44:04.789
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-04 15:02:12.788
+!MESSAGE Using manifest XSD 'manifest-schema/sdk_manifest_v3.3.xsd' for manifest '/usr/local/mcuxpressoide-10.3.0_2200/ide/plugins/com.nxp.mcuxpresso.core.datamodels.resources_10.3.0.201810041206/fragments/ksdk_manifest.xml'.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-04 15:02:12.821
+!MESSAGE Using SDK manifest 'ksdk_manifest.xml'.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-04 15:02:13.095
+!MESSAGE Using manifest XSD 'manifest-schema/sdk_manifest_v3.3.xsd' for manifest '/usr/local/mcuxpressoide-10.3.0_2200/ide/plugins/com.nxp.mcuxpresso.core.datamodels.resources_10.3.0.201810041206/override/override_manifest.xml'.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-04 15:02:13.111
+!MESSAGE Using SDK manifest 'override_manifest.xml'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:46.533
+!MESSAGE Indexed 'freertos_blinky' (9 sources, 63 headers) in 1.65 sec: 4,525 declarations; 8,917 references; 0 unresolved inclusions; 6 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:48.281
+!MESSAGE Indexed 'iperf_server' (42 sources, 103 headers) in 1.72 sec: 6,147 declarations; 24,148 references; 0 unresolved inclusions; 0 syntax errors; 35 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:48.715
+!MESSAGE Indexed 'lpc_board_nxp_lpcxpresso_1769' (3 sources, 83 headers) in 0.432 sec: 4,388 declarations; 7,359 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:49.928
+!MESSAGE Indexed 'lpc_chip_175x_6x' (32 sources, 88 headers) in 1.19 sec: 5,637 declarations; 13,701 references; 4 unresolved inclusions; 4 syntax errors; 8 unresolved names (0.041%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:50.903
+!MESSAGE Indexed 'lpcusblib_KeyboardHost' (16 sources, 101 headers) in 0.948 sec: 6,556 declarations; 12,021 references; 0 unresolved inclusions; 0 syntax errors; 8 unresolved names (0.043%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:51.973
+!MESSAGE Indexed 'lpcusblib_MassStorageHost' (19 sources, 108 headers) in 1.05 sec: 7,229 declarations; 16,716 references; 0 unresolved inclusions; 0 syntax errors; 8 unresolved names (0.033%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:53.490
+!MESSAGE Indexed 'lwip_tcpecho_freertos' (48 sources, 117 headers) in 1.49 sec: 7,431 declarations; 30,620 references; 0 unresolved inclusions; 5 syntax errors; 23 unresolved names (0.06%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:55.241
+!MESSAGE Indexed 'lwip_tcpecho_sa' (41 sources, 102 headers) in 1.74 sec: 6,103 declarations; 22,991 references; 0 unresolved inclusions; 0 syntax errors; 15 unresolved names (0.052%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:55.497
+!MESSAGE Indexed 'periph_adc' (3 sources, 46 headers) in 0.242 sec: 3,510 declarations; 5,274 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:55.718
+!MESSAGE Indexed 'periph_blinky' (3 sources, 46 headers) in 0.218 sec: 3,484 declarations; 4,960 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:55.975
+!MESSAGE Indexed 'periph_bod' (3 sources, 46 headers) in 0.248 sec: 3,487 declarations; 4,988 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:56.230
+!MESSAGE Indexed 'periph_can' (3 sources, 46 headers) in 0.244 sec: 3,529 declarations; 5,951 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:56.517
+!MESSAGE Indexed 'periph_clkout' (3 sources, 46 headers) in 0.275 sec: 3,486 declarations; 4,977 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:56.838
+!MESSAGE Indexed 'periph_dac' (3 sources, 46 headers) in 0.307 sec: 3,505 declarations; 5,123 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:57.159
+!MESSAGE Indexed 'periph_ethernet' (3 sources, 47 headers) in 0.306 sec: 3,596 declarations; 5,363 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:57.549
+!MESSAGE Indexed 'periph_flashiap' (3 sources, 46 headers) in 0.376 sec: 3,488 declarations; 5,028 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:57.885
+!MESSAGE Indexed 'periph_i2c' (3 sources, 48 headers) in 0.32 sec: 3,735 declarations; 5,489 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:58.100
+!MESSAGE Indexed 'periph_pinint' (3 sources, 46 headers) in 0.203 sec: 3,484 declarations; 4,988 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:58.296
+!MESSAGE Indexed 'periph_pmu' (3 sources, 47 headers) in 0.184 sec: 3,520 declarations; 5,253 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:58.518
+!MESSAGE Indexed 'periph_ritimer' (3 sources, 46 headers) in 0.209 sec: 3,485 declarations; 4,980 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:58.713
+!MESSAGE Indexed 'periph_rtc' (3 sources, 46 headers) in 0.184 sec: 3,492 declarations; 5,122 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:58.934
+!MESSAGE Indexed 'periph_spi' (3 sources, 46 headers) in 0.21 sec: 3,509 declarations; 5,206 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:59.152
+!MESSAGE Indexed 'periph_ssp' (3 sources, 46 headers) in 0.208 sec: 3,523 declarations; 5,346 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:59.396
+!MESSAGE Indexed 'periph_systick' (3 sources, 46 headers) in 0.234 sec: 3,484 declarations; 4,960 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:59.630
+!MESSAGE Indexed 'periph_timer' (3 sources, 46 headers) in 0.225 sec: 3,485 declarations; 4,998 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:19:59.859
+!MESSAGE Indexed 'periph_uart_rb' (3 sources, 47 headers) in 0.219 sec: 3,572 declarations; 5,114 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:20:00.087
+!MESSAGE Indexed 'periph_watchdog' (3 sources, 46 headers) in 0.219 sec: 3,493 declarations; 5,060 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:20:00.787
+!MESSAGE Indexed 'ucos_iii_blinky' (29 sources, 66 headers) in 0.688 sec: 5,609 declarations; 15,066 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:20:01.092
+!MESSAGE Indexed 'usbd_lib_cdc' (5 sources, 64 headers) in 0.296 sec: 4,679 declarations; 6,487 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:20:01.410
+!MESSAGE Indexed 'usbd_lib_cdc_uart' (5 sources, 63 headers) in 0.305 sec: 4,622 declarations; 6,521 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:20:01.733
+!MESSAGE Indexed 'usbd_lib_composite' (6 sources, 64 headers) in 0.313 sec: 4,705 declarations; 6,720 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:20:02.099
+!MESSAGE Indexed 'usbd_lib_hid_generic' (5 sources, 63 headers) in 0.352 sec: 4,616 declarations; 6,249 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:20:02.396
+!MESSAGE Indexed 'usbd_lib_hid_keyboard' (6 sources, 64 headers) in 0.287 sec: 4,659 declarations; 6,382 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:20:02.694
+!MESSAGE Indexed 'usbd_lib_hid_mouse' (5 sources, 63 headers) in 0.289 sec: 4,634 declarations; 6,296 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:20:03.572
+!MESSAGE Indexed 'webserver' (42 sources, 104 headers) in 0.868 sec: 6,220 declarations; 23,878 references; 0 unresolved inclusions; 0 syntax errors; 15 unresolved names (0.05%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:20:04.599
+!MESSAGE Indexed 'webserver_freertos' (49 sources, 118 headers) in 1.02 sec: 7,600 declarations; 31,531 references; 0 unresolved inclusions; 5 syntax errors; 25 unresolved names (0.064%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-04 15:22:12.407
+!MESSAGE Indexed 'project_hello' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.crt.log 1 0 2019-02-04 15:46:26.375
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.crt.debugcommon 1 0 2019-02-04 15:46:26.376
+!MESSAGE RedlinkServer telnet session connected on port 3025->58908 @ 127.0.0.1
+!SESSION 2019-02-04 16:55:17.720 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-02-04 16:55:26.421
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2019-02-04 16:55:31.324
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-04 16:55:31.324
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,Unlock All Settings,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@52a2e2fb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7c0035dd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2019-02-04 16:55:32.519
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Required sub element 'icon' not defined
+
+!ENTRY org.eclipse.ui 4 4 2019-02-04 16:55:32.519
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Unknown extension tag found: decorator
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-04 16:55:33.816
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-04 16:55:37.561
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-04 16:55:37.572
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-04 16:55:37.573
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.crt.log 1 0 2019-02-04 17:35:11.047
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.crt.debugcommon 1 0 2019-02-04 17:35:11.058
+!MESSAGE RedlinkServer telnet session connected on port 3025->60124 @ 127.0.0.1
+
+!ENTRY com.crt.debugcommon 4 0 2019-02-04 17:36:29.022
+!MESSAGE Unable to parse ProbeList output to get probe ref count: []
+!SESSION 2019-02-04 17:36:41.041 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2019-02-04 17:37:01.699
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-04 17:37:01.700
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,Unlock All Settings,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1cd2e348,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@73bcd9b4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2019-02-04 17:37:03.769
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Required sub element 'icon' not defined
+
+!ENTRY org.eclipse.ui 4 4 2019-02-04 17:37:03.769
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Unknown extension tag found: decorator
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-04 17:37:07.550
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-04 17:37:13.793
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-04 17:37:13.798
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-04 17:37:13.798
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-04 17:37:14.737
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-04 17:37:14.738
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY com.crt.log 1 0 2019-02-04 17:39:29.828
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.crt.debugcommon 1 0 2019-02-04 17:39:29.830
+!MESSAGE RedlinkServer telnet session connected on port 3025->60274 @ 127.0.0.1
+
+!ENTRY com.crt.dsfdebug 1 0 2019-02-04 17:40:11.187
+!MESSAGE Telnet session connected on port 3330->49906 @ 127.0.0.1
+
+!ENTRY com.crt.debugcommon 4 0 2019-02-04 17:40:37.387
+!MESSAGE 02: Failed on connect: Ee(37). Priority 0 connection to this core already taken. (E)
+
+!ENTRY com.crt.debugcommon 4 0 2019-02-04 17:40:37.389
+!MESSAGE 31: No connection to chip's debug port (E)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2019-02-04 17:46:39.151
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.core.sourcelookup.containers.CompositeSourceContainer.getSourceContainers(CompositeSourceContainer.java:134)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:111)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:69)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:100)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:115)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:117)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.crt.debugcommon 4 0 2019-02-04 17:46:41.469
+!MESSAGE There is already a running debug session for the launch configuration 'project_hello LinkServer Debug'.
+
+!ENTRY com.crt.debugcommon 4 0 2019-02-04 17:47:06.280
+!MESSAGE There is already a running debug session for the launch configuration 'project_hello LinkServer Debug'.
+
+!ENTRY com.crt.debugcommon 4 0 2019-02-04 17:47:58.040
+!MESSAGE 02: Failed on connect: Nn(05). Wire ACK Fault in DAP access (E)
+
+!ENTRY com.crt.debugcommon 4 0 2019-02-04 17:47:58.041
+!MESSAGE Probe(0): Connected&Reset. Was: NotConnected. DpID: 00000000. CpuID: 00000000. Info: <None> (E)
+
+!ENTRY com.crt.debugcommon 4 0 2019-02-04 17:49:21.009
+!MESSAGE Unable to parse ProbeList output to get probe ref count: []
+
+!ENTRY com.crt.log 1 0 2019-02-04 18:09:28.593
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.crt.debugcommon 1 0 2019-02-04 18:09:28.594
+!MESSAGE RedlinkServer telnet session connected on port 3025->60652 @ 127.0.0.1
+
+!ENTRY com.crt.dsfdebug 1 0 2019-02-04 18:09:35.415
+!MESSAGE Telnet session connected on port 3330->50282 @ 127.0.0.1
+
+!ENTRY com.crt.debugcommon 4 0 2019-02-04 18:17:00.448
+!MESSAGE There is already a running debug session for the launch configuration 'project_hello LinkServer Debug'.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2019-02-04 18:17:06.224
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@782e5263): Status ERROR: org.eclipse.cdt.dsf.gdb code=10003 Invalid context type. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10003 2019-02-04 18:17:06.224
+!MESSAGE Invalid context type.
+
+!ENTRY com.crt.log 1 0 2019-02-04 18:17:11.878
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.crt.debugcommon 1 0 2019-02-04 18:17:11.880
+!MESSAGE RedlinkServer telnet session connected on port 3025->60750 @ 127.0.0.1
+
+!ENTRY com.crt.debugcommon 4 0 2019-02-04 18:38:37.317
+!MESSAGE Unable to parse ProbeList output to get probe ref count: []
+!SESSION 2019-02-11 06:23:24.784 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2019-02-11 06:23:53.125
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-11 06:23:53.125
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,Unlock All Settings,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@37fd496a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6c4e486e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2019-02-11 06:23:55.283
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Required sub element 'icon' not defined
+
+!ENTRY org.eclipse.ui 4 4 2019-02-11 06:23:55.283
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Unknown extension tag found: decorator
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-11 06:24:00.306
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-11 06:24:06.044
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-11 06:24:06.056
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-11 06:24:06.056
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-11 06:24:07.921
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-11 06:24:07.921
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-11 06:55:41.718
+!MESSAGE Using manifest XSD 'manifest-schema/sdk_manifest_v3.3.xsd' for manifest '/usr/local/mcuxpressoide-10.3.0_2200/ide/plugins/com.nxp.mcuxpresso.core.datamodels.resources_10.3.0.201810041206/fragments/ksdk_manifest.xml'.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-11 06:55:41.743
+!MESSAGE Using SDK manifest 'ksdk_manifest.xml'.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-11 06:55:42.052
+!MESSAGE Using manifest XSD 'manifest-schema/sdk_manifest_v3.3.xsd' for manifest '/usr/local/mcuxpressoide-10.3.0_2200/ide/plugins/com.nxp.mcuxpresso.core.datamodels.resources_10.3.0.201810041206/override/override_manifest.xml'.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-11 06:55:42.067
+!MESSAGE Using SDK manifest 'override_manifest.xml'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-11 06:57:22.197
+!MESSAGE Indexed 'proj_toggle' (0 sources, 0 headers) in 0.014 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-11 07:47:15.080
+!MESSAGE Indexed 'hareet' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.crt.log 1 0 2019-02-11 08:15:02.769
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.crt.debugcommon 1 0 2019-02-11 08:15:02.770
+!MESSAGE RedlinkServer telnet session connected on port 3025->45526 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2019-02-11 08:15:52.335
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/hareet/Debug/hareet.axf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:126)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:292)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:137)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at com.crt.dsfdebug.dsf.override.CRTGdbLaunchDelegate.launch(CRTGdbLaunchDelegate.java:109)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2019-02-11 08:15:52.336
+!MESSAGE /home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/hareet/Debug/hareet.axf not found
+!STACK 0
+java.io.FileNotFoundException: /home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/hareet/Debug/hareet.axf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:126)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:292)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:137)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at com.crt.dsfdebug.dsf.override.CRTGdbLaunchDelegate.launch(CRTGdbLaunchDelegate.java:109)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2019-02-11 08:24:02.180
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/proj_toggle/Debug/proj_toggle.axf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:126)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:292)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:137)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at com.crt.dsfdebug.dsf.override.CRTGdbLaunchDelegate.launch(CRTGdbLaunchDelegate.java:109)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2019-02-11 08:24:02.180
+!MESSAGE /home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/proj_toggle/Debug/proj_toggle.axf not found
+!STACK 0
+java.io.FileNotFoundException: /home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/proj_toggle/Debug/proj_toggle.axf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:126)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:292)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:137)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at com.crt.dsfdebug.dsf.override.CRTGdbLaunchDelegate.launch(CRTGdbLaunchDelegate.java:109)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SESSION 2019-02-11 10:07:29.830 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-02-11 10:07:51.085
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2019-02-11 10:08:32.440
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-11 10:08:32.440
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,Unlock All Settings,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@69b80603,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5655278d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2019-02-11 10:08:34.596
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Required sub element 'icon' not defined
+
+!ENTRY org.eclipse.ui 4 4 2019-02-11 10:08:34.596
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Unknown extension tag found: decorator
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-11 10:08:43.189
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-11 10:08:45.419
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-11 10:08:45.421
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-11 10:08:45.421
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2019-02-11 10:24:55.576 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-02-11 10:25:13.759
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2019-02-11 10:25:53.109
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-11 10:25:53.110
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,Unlock All Settings,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b9df3b3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@67b20b4c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2019-02-11 10:25:57.966
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Required sub element 'icon' not defined
+
+!ENTRY org.eclipse.ui 4 4 2019-02-11 10:25:57.967
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Unknown extension tag found: decorator
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-11 10:26:08.418
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-11 10:26:10.160
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-11 10:26:10.160
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-11 10:26:10.161
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.crt.log 1 0 2019-02-11 10:46:59.553
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.crt.debugcommon 1 0 2019-02-11 10:46:59.555
+!MESSAGE RedlinkServer telnet session connected on port 3025->39710 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2019-02-11 10:47:07.492
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/hareet/Debug/hareet.axf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:126)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:292)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:137)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at com.crt.dsfdebug.dsf.override.CRTGdbLaunchDelegate.launch(CRTGdbLaunchDelegate.java:109)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2019-02-11 10:47:07.494
+!MESSAGE /home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/hareet/Debug/hareet.axf not found
+!STACK 0
+java.io.FileNotFoundException: /home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/hareet/Debug/hareet.axf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:126)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:292)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:137)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at com.crt.dsfdebug.dsf.override.CRTGdbLaunchDelegate.launch(CRTGdbLaunchDelegate.java:109)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2019-02-11 11:03:23.795
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/hareet/Debug/hareet.axf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:126)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:292)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:137)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at com.crt.dsfdebug.dsf.override.CRTGdbLaunchDelegate.launch(CRTGdbLaunchDelegate.java:109)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2019-02-11 11:03:23.795
+!MESSAGE /home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/hareet/Debug/hareet.axf not found
+!STACK 0
+java.io.FileNotFoundException: /home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/hareet/Debug/hareet.axf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:126)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:292)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:137)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at com.crt.dsfdebug.dsf.override.CRTGdbLaunchDelegate.launch(CRTGdbLaunchDelegate.java:109)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SESSION 2019-02-11 11:11:23.034 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-02-11 11:11:41.093
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2019-02-11 11:12:21.233
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-11 11:12:21.233
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,Unlock All Settings,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6c9b6332,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@384b3fe7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2019-02-11 11:12:25.969
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Required sub element 'icon' not defined
+
+!ENTRY org.eclipse.ui 4 4 2019-02-11 11:12:25.970
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Unknown extension tag found: decorator
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-11 11:12:36.016
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-11 11:12:42.363
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-11 11:12:42.365
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-11 11:12:42.366
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.crt.log 1 0 2019-02-11 11:14:13.680
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.crt.debugcommon 1 0 2019-02-11 11:14:13.682
+!MESSAGE RedlinkServer telnet session connected on port 3025->60860 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2019-02-11 11:14:20.739
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/hareet/Debug/hareet.axf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:126)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:292)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:137)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at com.crt.dsfdebug.dsf.override.CRTGdbLaunchDelegate.launch(CRTGdbLaunchDelegate.java:109)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2019-02-11 11:14:20.740
+!MESSAGE /home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/hareet/Debug/hareet.axf not found
+!STACK 0
+java.io.FileNotFoundException: /home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/hareet/Debug/hareet.axf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:126)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:292)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:137)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at com.crt.dsfdebug.dsf.override.CRTGdbLaunchDelegate.launch(CRTGdbLaunchDelegate.java:109)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.crt.debugcommon 4 0 2019-02-11 11:17:45.446
+!MESSAGE Unable to parse ProbeList output to get probe ref count: []
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-02-11 11:17:49.733
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.nxp.mcuxpresso.core.datamodels.ui.views.SDKView$1
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-02-11 11:17:49.733
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.nxp.mcuxpresso.core.datamodels.SDKChipVendorDatabase$1
+!SESSION 2019-02-13 19:28:11.114 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2019-02-13 19:29:16.393
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-13 19:29:16.393
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,Unlock All Settings,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b984ba5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1812b564,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2019-02-13 19:29:18.578
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Required sub element 'icon' not defined
+
+!ENTRY org.eclipse.ui 4 4 2019-02-13 19:29:18.579
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Unknown extension tag found: decorator
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 19:29:24.631
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 19:29:30.039
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 19:29:30.042
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 19:29:30.043
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 19:29:55.555
+!MESSAGE Using manifest XSD 'manifest-schema/sdk_manifest_v3.3.xsd' for manifest '/usr/local/mcuxpressoide-10.3.0_2200/ide/plugins/com.nxp.mcuxpresso.core.datamodels.resources_10.3.0.201810041206/fragments/ksdk_manifest.xml'.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 19:29:55.587
+!MESSAGE Using SDK manifest 'ksdk_manifest.xml'.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 19:29:56.003
+!MESSAGE Using manifest XSD 'manifest-schema/sdk_manifest_v3.3.xsd' for manifest '/usr/local/mcuxpressoide-10.3.0_2200/ide/plugins/com.nxp.mcuxpresso.core.datamodels.resources_10.3.0.201810041206/override/override_manifest.xml'.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 19:29:56.020
+!MESSAGE Using SDK manifest 'override_manifest.xml'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-13 19:31:52.826
+!MESSAGE Indexed 'blink_1' (0 sources, 0 headers) in 0.004 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2019-02-13 19:47:59.587 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2019-02-13 19:48:23.932
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-13 19:48:23.932
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,Unlock All Settings,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5d2bc446,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6e96f3cd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2019-02-13 19:48:25.053
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Required sub element 'icon' not defined
+
+!ENTRY org.eclipse.ui 4 4 2019-02-13 19:48:25.053
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Unknown extension tag found: decorator
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 19:48:26.920
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 19:48:27.629
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 19:48:27.631
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 19:48:27.631
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 19:48:37.775
+!MESSAGE Using manifest XSD 'manifest-schema/sdk_manifest_v3.3.xsd' for manifest '/usr/local/mcuxpressoide-10.3.0_2200/ide/plugins/com.nxp.mcuxpresso.core.datamodels.resources_10.3.0.201810041206/fragments/ksdk_manifest.xml'.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 19:48:37.803
+!MESSAGE Using SDK manifest 'ksdk_manifest.xml'.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 19:48:38.063
+!MESSAGE Using manifest XSD 'manifest-schema/sdk_manifest_v3.3.xsd' for manifest '/usr/local/mcuxpressoide-10.3.0_2200/ide/plugins/com.nxp.mcuxpresso.core.datamodels.resources_10.3.0.201810041206/override/override_manifest.xml'.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 19:48:38.086
+!MESSAGE Using SDK manifest 'override_manifest.xml'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-13 19:49:45.668
+!MESSAGE Indexed 'proj_2' (5 sources, 48 headers) in 1.72 sec: 3,484 declarations; 4,980 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-13 20:47:14.790
+!MESSAGE Indexed 'neet' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.crt.log 1 0 2019-02-13 20:48:10.921
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.crt.debugcommon 1 0 2019-02-13 20:48:10.923
+!MESSAGE RedlinkServer telnet session connected on port 3025->35890 @ 127.0.0.1
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-13 20:53:01.213
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-13 20:53:01.213
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2019-02-13 21:08:41.991 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-02-13 21:08:51.630
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2019-02-13 21:09:07.132
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-13 21:09:07.132
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,Unlock All Settings,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c38e2bf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@205b73d8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2019-02-13 21:09:09.268
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Required sub element 'icon' not defined
+
+!ENTRY org.eclipse.ui 4 4 2019-02-13 21:09:09.268
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Unknown extension tag found: decorator
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 21:09:14.352
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 21:09:21.112
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 21:09:21.124
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 21:09:21.124
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2019-02-13 21:11:12.452 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2019-02-13 21:11:21.584
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-13 21:11:21.584
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,Unlock All Settings,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7c751692,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2569afda,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2019-02-13 21:11:22.751
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Required sub element 'icon' not defined
+
+!ENTRY org.eclipse.ui 4 4 2019-02-13 21:11:22.751
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Unknown extension tag found: decorator
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 21:11:23.989
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 21:11:28.026
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 21:11:28.036
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 21:11:28.036
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-13 21:11:28.822
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-13 21:11:28.822
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2019-02-13 21:20:38.556 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2019-02-13 21:20:47.320
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-13 21:20:47.320
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,Unlock All Settings,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2569afda,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@28dd8786,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2019-02-13 21:20:48.558
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Required sub element 'icon' not defined
+
+!ENTRY org.eclipse.ui 4 4 2019-02-13 21:20:48.559
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Unknown extension tag found: decorator
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 21:20:50.625
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 21:20:53.358
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 21:20:53.367
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 21:20:53.367
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2019-02-13 21:21:10.877
+!MESSAGE Exception in update check thread
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadIndexFile(AbstractRepositoryManager.java:735)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:657)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
+!SESSION 2019-02-13 21:30:03.106 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2019-02-13 21:30:13.499
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-13 21:30:13.499
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,Unlock All Settings,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b529d42,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@459df48d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2019-02-13 21:30:14.832
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Required sub element 'icon' not defined
+
+!ENTRY org.eclipse.ui 4 4 2019-02-13 21:30:14.832
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Unknown extension tag found: decorator
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 21:30:16.761
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 21:30:19.667
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 21:30:19.671
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 21:30:19.671
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2019-02-13 21:34:45.802 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2019-02-13 21:34:57.429
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-13 21:34:57.429
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,Unlock All Settings,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c04ddda,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@78c23ade,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2019-02-13 21:34:58.774
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Required sub element 'icon' not defined
+
+!ENTRY org.eclipse.ui 4 4 2019-02-13 21:34:58.775
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Unknown extension tag found: decorator
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 21:35:00.678
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 21:35:03.468
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 21:35:03.497
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 21:35:03.497
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 21:36:37.678
+!MESSAGE Using manifest XSD 'manifest-schema/sdk_manifest_v3.3.xsd' for manifest '/usr/local/mcuxpressoide-10.3.0_2200/ide/plugins/com.nxp.mcuxpresso.core.datamodels.resources_10.3.0.201810041206/fragments/ksdk_manifest.xml'.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 21:36:37.707
+!MESSAGE Using SDK manifest 'ksdk_manifest.xml'.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 21:36:38.042
+!MESSAGE Using manifest XSD 'manifest-schema/sdk_manifest_v3.3.xsd' for manifest '/usr/local/mcuxpressoide-10.3.0_2200/ide/plugins/com.nxp.mcuxpresso.core.datamodels.resources_10.3.0.201810041206/override/override_manifest.xml'.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 21:36:38.058
+!MESSAGE Using SDK manifest 'override_manifest.xml'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-13 21:37:27.671
+!MESSAGE Indexed 'lovejas' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2019-02-13 21:58:33.728 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2019-02-13 21:58:41.225
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-13 21:58:41.225
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,Unlock All Settings,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1755aee6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@582b14e2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2019-02-13 21:58:42.419
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Required sub element 'icon' not defined
+
+!ENTRY org.eclipse.ui 4 4 2019-02-13 21:58:42.419
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Unknown extension tag found: decorator
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 21:58:44.587
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 21:58:48.013
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 21:58:48.018
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 21:58:48.018
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 22:08:50.005
+!MESSAGE Using manifest XSD 'manifest-schema/sdk_manifest_v3.3.xsd' for manifest '/usr/local/mcuxpressoide-10.3.0_2200/ide/plugins/com.nxp.mcuxpresso.core.datamodels.resources_10.3.0.201810041206/fragments/ksdk_manifest.xml'.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 22:08:50.038
+!MESSAGE Using SDK manifest 'ksdk_manifest.xml'.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 22:08:50.303
+!MESSAGE Using manifest XSD 'manifest-schema/sdk_manifest_v3.3.xsd' for manifest '/usr/local/mcuxpressoide-10.3.0_2200/ide/plugins/com.nxp.mcuxpresso.core.datamodels.resources_10.3.0.201810041206/override/override_manifest.xml'.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 22:08:50.321
+!MESSAGE Using SDK manifest 'override_manifest.xml'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-13 22:16:13.082
+!MESSAGE Indexed 'FIRST' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-02-13 22:17:55.051
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.nxp.mcuxpresso.core.datamodels.ui.views.SDKView$1
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-02-13 22:17:55.052
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.nxp.mcuxpresso.core.datamodels.SDKChipVendorDatabase$1
+!SESSION 2019-02-13 22:18:56.020 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2019-02-13 22:19:03.793
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-13 22:19:03.793
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,Unlock All Settings,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b76b891,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@611a91df,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2019-02-13 22:19:05.293
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Required sub element 'icon' not defined
+
+!ENTRY org.eclipse.ui 4 4 2019-02-13 22:19:05.294
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Unknown extension tag found: decorator
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-13 22:19:06.708
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 22:19:11.295
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 22:19:11.297
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 22:19:11.297
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2019-02-15 12:45:17.659 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.nxp.mcuxpresso.core.common 1 0 2019-02-15 12:45:22.110
+!MESSAGE Link /usr/local/mcuxpressoide-10.3.0_2200/ide/binaries already exists. Deleting old... false
+
+!ENTRY com.nxp.mcuxpresso.core.common 4 0 2019-02-15 12:45:22.111
+!MESSAGE Unable to create symbolic links while installing feature.
+!STACK 0
+java.nio.file.FileAlreadyExistsException: /usr/local/mcuxpressoide-10.3.0_2200/ide/binaries
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:88)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.createSymbolicLink(UnixFileSystemProvider.java:457)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at com.nxp.mcuxpresso.core.common.CreateLinks.updateLinks(CreateLinks.java:59)
+	at com.nxp.mcuxpresso.core.common.CreateLinks.execute(CreateLinks.java:27)
+	at org.eclipse.equinox.internal.p2.engine.ParameterizedProvisioningAction.execute(ParameterizedProvisioningAction.java:39)
+	at org.eclipse.equinox.internal.p2.engine.Phase.mainPerform(Phase.java:184)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:96)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:77)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:45)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.ProfileSynchronizer.executePlan(ProfileSynchronizer.java:799)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.ProfileSynchronizer.performAddRemove(ProfileSynchronizer.java:202)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.ProfileSynchronizer.synchronize(ProfileSynchronizer.java:141)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.synchronize(Activator.java:469)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:177)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1614)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.nxp.mcuxpresso.core.common 1 0 2019-02-15 12:45:22.113
+!MESSAGE Link /usr/local/mcuxpressoide-10.3.0_2200/ide/binaries already exists. Deleting old... false
+
+!ENTRY com.nxp.mcuxpresso.core.common 4 0 2019-02-15 12:45:22.113
+!MESSAGE Unable to create symbolic links while installing feature.
+!STACK 0
+java.nio.file.FileAlreadyExistsException: /usr/local/mcuxpressoide-10.3.0_2200/ide/binaries
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:88)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.createSymbolicLink(UnixFileSystemProvider.java:457)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at com.nxp.mcuxpresso.core.common.CreateLinks.updateLinks(CreateLinks.java:59)
+	at com.nxp.mcuxpresso.core.common.CreateLinks.undo(CreateLinks.java:32)
+	at org.eclipse.equinox.internal.p2.engine.ParameterizedProvisioningAction.undo(ParameterizedProvisioningAction.java:45)
+	at org.eclipse.equinox.internal.p2.engine.Phase.undo(Phase.java:284)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollBackPhase(EngineSession.java:238)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollback(EngineSession.java:156)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:86)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:45)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.ProfileSynchronizer.executePlan(ProfileSynchronizer.java:799)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.ProfileSynchronizer.performAddRemove(ProfileSynchronizer.java:202)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.ProfileSynchronizer.synchronize(ProfileSynchronizer.java:141)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.synchronize(Activator.java:469)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:177)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:933)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1614)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.jface 2 0 2019-02-15 12:45:30.059
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-15 12:45:30.059
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,Unlock All Settings,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b338591,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@277474fc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2019-02-15 12:45:31.452
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Required sub element 'icon' not defined
+
+!ENTRY org.eclipse.ui 4 4 2019-02-15 12:45:31.452
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Unknown extension tag found: decorator
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-15 12:45:34.632
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-15 12:45:40.139
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-15 12:45:40.147
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-15 12:45:40.147
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.crt.log 4 -1 2019-02-15 12:46:24.835
+!MESSAGE Attempted to beginRule: R/, does not match outer scope rule: P/lovejas
+!STACK 0
+java.lang.Exception: org.eclipse.core.runtime.CoreException: Attempted to beginRule: R/, does not match outer scope rule: P/lovejas
+	at com.crt.utils.general.Reporter.log(Reporter.java:654)
+	at com.crt.advproject.ChipVendorDatabase.save(ChipVendorDatabase.java:132)
+	at com.crt.config.database.ChipVendor.save(ChipVendor.java:756)
+	at com.crt.config.database.TargetConfig.save(TargetConfig.java:1632)
+	at com.crt.config.SaveViewInfo.saving(SaveViewInfo.java:102)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:389)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:198)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:201)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1186)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:193)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:135)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:156)
+	at org.eclipse.ui.actions.WorkspaceAction$1.runInWorkspace(WorkspaceAction.java:456)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: org.eclipse.core.runtime.CoreException: Attempted to beginRule: R/, does not match outer scope rule: P/lovejas
+	at org.eclipse.cdt.internal.core.settings.model.ExceptionFactory.createCoreException(ExceptionFactory.java:26)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:205)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionStorageManager.setProjectDescription(CProjectDescriptionStorageManager.java:149)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:853)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:814)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:808)
+	at org.eclipse.cdt.core.model.CoreModel.setProjectDescription(CoreModel.java:1388)
+	at com.crt.advproject.ChipVendorDatabase.save(ChipVendorDatabase.java:128)
+	... 15 more
+Caused by: java.lang.IllegalArgumentException: Attempted to beginRule: R/, does not match outer scope rule: P/lovejas
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:134)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:389)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:63)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:308)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:121)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2188)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2235)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:638)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:203)
+	... 21 more
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-15 12:53:02.467
+!MESSAGE Using manifest XSD 'manifest-schema/sdk_manifest_v3.3.xsd' for manifest '/usr/local/mcuxpressoide-10.3.0_2200/ide/plugins/com.nxp.mcuxpresso.core.datamodels.resources_10.3.0.201810041206/fragments/ksdk_manifest.xml'.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-15 12:53:02.503
+!MESSAGE Using SDK manifest 'ksdk_manifest.xml'.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-15 12:53:02.757
+!MESSAGE Using manifest XSD 'manifest-schema/sdk_manifest_v3.3.xsd' for manifest '/usr/local/mcuxpressoide-10.3.0_2200/ide/plugins/com.nxp.mcuxpresso.core.datamodels.resources_10.3.0.201810041206/override/override_manifest.xml'.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-15 12:53:02.775
+!MESSAGE Using SDK manifest 'override_manifest.xml'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-02-15 12:54:19.441
+!MESSAGE Indexed 'harneet' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.crt.log 1 0 2019-02-15 13:06:26.914
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.crt.debugcommon 1 0 2019-02-15 13:06:26.916
+!MESSAGE RedlinkServer telnet session connected on port 3025->55322 @ 127.0.0.1
+
+!ENTRY com.crt.debugcommon 4 0 2019-02-15 13:17:31.107
+!MESSAGE Unable to parse ProbeList output to get probe ref count: []
+!SESSION 2019-02-25 08:41:01.916 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2019-02-25 08:41:26.332
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-25 08:41:26.332
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,Unlock All Settings,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d7772d3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@38394e76,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2019-02-25 08:41:28.506
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Required sub element 'icon' not defined
+
+!ENTRY org.eclipse.ui 4 4 2019-02-25 08:41:28.506
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Unknown extension tag found: decorator
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-02-25 08:41:33.448
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-25 08:41:39.112
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-25 08:41:39.113
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-25 08:41:39.779
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-25 08:41:39.785
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-25 08:41:39.785
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2019-03-04 06:38:34.480 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2019-03-04 06:39:13.363
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-03-04 06:39:13.364
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,Unlock All Settings,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@37d3e740,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5afba80c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2019-03-04 06:39:16.718
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Required sub element 'icon' not defined
+
+!ENTRY org.eclipse.ui 4 4 2019-03-04 06:39:16.719
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Unknown extension tag found: decorator
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-03-04 06:39:23.448
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-03-04 06:39:39.946
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-03-04 06:39:39.948
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-03-04 06:39:39.948
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2019-03-12 05:58:56.531 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2019-03-12 05:59:04.341
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-03-12 05:59:04.341
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,Unlock All Settings,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@786cc1df,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1ddb6abb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2019-03-12 05:59:05.665
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Required sub element 'icon' not defined
+
+!ENTRY org.eclipse.ui 4 4 2019-03-12 05:59:05.666
+!MESSAGE Plugin com.nxp.mcuxpresso.trace.core, extension org.eclipse.ui.decorators, id com.nxp.mcuxpresso.trace.core.decorator: Unknown extension tag found: decorator
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2019-03-12 05:59:09.491
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-03-12 05:59:09.911
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-03-12 05:59:09.912
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-03-12 05:59:09.912
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType

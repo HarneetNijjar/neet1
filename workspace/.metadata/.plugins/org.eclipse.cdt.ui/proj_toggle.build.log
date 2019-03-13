@@ -1,0 +1,36 @@
+08:23:57 **** Incremental Build of configuration Debug for project proj_toggle ****
+make -r -j4 all 
+Building file: ../src/proj_toggle.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_LPCOPEN -DNO_BOARD_LIB -D__LPC17XX__ -D__REDLIB__ -I"/home/harneet/Documents/MCUXpresso_10.3.0_2200/workspace/lpc_chip_175x_6x/inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/proj_toggle.d" -MT"src/proj_toggle.o" -MT"src/proj_toggle.d" -o "src/proj_toggle.o" "../src/proj_toggle.c"
+../src/proj_toggle.c: In function 'main':
+../src/proj_toggle.c:62:6: warning: implicit declaration of function 'Board_LED_Toggle' [-Wimplicit-function-declaration]
+      Board_LED_Toggle(Red,off_l);
+      ^~~~~~~~~~~~~~~~
+../src/proj_toggle.c:62:23: error: 'Red' undeclared (first use in this function)
+      Board_LED_Toggle(Red,off_l);
+                       ^~~
+../src/proj_toggle.c:62:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/proj_toggle.c:62:27: error: 'off_l' undeclared (first use in this function)
+      Board_LED_Toggle(Red,off_l);
+                           ^~~~~
+../src/proj_toggle.c:64:27: error: 'Green' undeclared (first use in this function)
+          Board_LED_Toggle(Green,on_l);
+                           ^~~~~
+../src/proj_toggle.c:64:33: error: 'on_l' undeclared (first use in this function); did you mean 'off_l'?
+          Board_LED_Toggle(Green,on_l);
+                                 ^~~~
+                                 off_l
+../src/proj_toggle.c:66:27: error: 'Blue' undeclared (first use in this function); did you mean 'true'?
+          Board_LED_Toggle(Blue,off_l);
+                           ^~~~
+                           true
+At top level:
+../src/proj_toggle.c:72:10: warning: 'my_delay_func' defined but not used [-Wunused-function]
+     void my_delay_func(const uint32_t delay_val){
+          ^~~~~~~~~~~~~
+src/subdir.mk:27: recipe for target 'src/proj_toggle.o' failed
+make: *** [src/proj_toggle.o] Error 1
+
+08:23:57 Build Finished (took 291ms)
+
